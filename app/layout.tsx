@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/next"
 import { Suspense } from "react"
 import "./globals.css"
 import { cn } from "@/lib/utils"
-import TabTitleHandler from "@/components/tab-title-handler"
+import TabTitleHandler from "../components/tab-title-handler"
 
 export const metadata: Metadata = {
   title: "N&C Servicios Generales Neithan | Consultoría y Evaluación de Proyectos",
